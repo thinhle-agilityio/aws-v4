@@ -1,0 +1,24 @@
+{
+  "name": "aws-v4",
+  "version": "1.0.0",
+  "description": "Generate aws signature v4 for API Gateway using AWS Signature version 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/thinhle-agilityio/aws-v4",
+  "keywords": [
+    "aws",
+    "v4",
+    "signature"
+  ],
+  "author": "Thinh Le",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinhle-agilityio/aws-v4.git"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
