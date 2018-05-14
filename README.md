@@ -23,6 +23,8 @@ const awsV4 = require('aws-v4');
 const signedRequest = awsV4.newClient({
     accessKey: <AWS_ACCESS_KEY_ID>,
     secretKey: <AWS_SECRET_KEY>,
+    // sessionToken is required if you run this on AWS lambda
+    // sessionToken: <AWS_SESSION_TOKEN>,
     region: <AWS_REGION>,
     endpoint: <AWS_API_GATEWAY_ENDPOINT>
   }).signRequest({
